@@ -6,7 +6,8 @@ float Binomial::GetCoefficient(float x)
     return coefficient[1];
   else if (x==2)
     return coefficient[2];
-  else return -1;
+  else 
+    return -1;
 }
 
 
@@ -17,7 +18,7 @@ int Binomial::GetPower(int a)
   else if(a==2)
     return pow[2];
   else 
-    return -1;
+    return -1; 
   }
 
 

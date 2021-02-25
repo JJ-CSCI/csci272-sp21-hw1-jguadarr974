@@ -16,7 +16,6 @@ Binomial(float x=1.0,int a=1,float y=1.0,int b=1)
 
 float GetCoefficient(float x);
 int GetPower(int a);
-
 int SetPower(int a, int b);
 int Add (Binomial a);
 float Multiply(float x);
